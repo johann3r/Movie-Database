@@ -1,0 +1,36 @@
+.movieitem {
+  border-radius: 4px;
+  text-align: left;
+  padding: 32px;
+  background-color: #ffffffbe;
+  border-top: 4px solid #f44545;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.394);
+
+  h2 {
+    font-family: "Karla";
+    font-weight: 800;
+    padding: 16px 0;
+    border-bottom: solid 1px #000;
+    margin-bottom: 16px;
+  }
+
+  h3 {
+    font-family: "Karla";
+    font-weight: 800;
+    padding: 4px 0;
+  }
+
+  p {
+    font-family: "Karla";
+    padding: px 0;
+    margin: 4px 8px 4px 0;
+    display: inline-block;
+  }
+
+  .info-wrapper {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    // width: 100%;
+  }
+}
