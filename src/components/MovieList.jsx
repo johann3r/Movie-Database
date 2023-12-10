@@ -2,7 +2,6 @@ import "./MovieList.scss";
 import MovieItem from "./MovieItem";
 import { useState } from "react";
 import movies from "./../data/data";
-import bg1 from "./bg1.avif";
 
 const MovieList = () => {
   console.log();
