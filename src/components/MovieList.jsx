@@ -2,6 +2,7 @@ import "./MovieList.scss";
 import MovieItem from "./MovieItem";
 import { useState } from "react";
 import movies from "./../data/data";
+import bg1 from "./bg1.avif";
 
 const MovieList = () => {
   console.log();
@@ -13,7 +14,7 @@ const MovieList = () => {
     const sortedMovies = [...movie].sort(
       (movieA, movieB) => movieA.year - movieB.year
     );
-    setMovie(sortedMovies); //in die Klammern das sorted Movies rein
+    setMovie(sortedMovies);
   };
 
   // Sort descending by Date
